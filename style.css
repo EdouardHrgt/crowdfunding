@@ -12,6 +12,9 @@
   /* DELETE WHEN PROJECT DONE */
   border: 1px solid rgb(252, 99, 99);
 }
+.none {
+  display: none;
+}
 
 * {
   padding: 0;
@@ -218,8 +221,8 @@ nav ul {
   border-radius: inherit;
   background-color: var(--clr-cyan);
 }
-/* ABOUT SECTION */
 
+/* ABOUT SECTION */
 .about {
   margin-top: 6rem;
 }
@@ -234,3 +237,68 @@ nav ul {
   color: var(--clr-dark-grey);
   line-height: 28px;
 }
+
+/* OPTIONS */
+.option {
+  padding: 3em 2em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid rgb(214, 214, 214);
+  margin-top: 2rem;
+}
+
+.option-title-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option-title-price span {
+  color: var(--clr-cyan);
+  font-weight: bold;
+}
+
+.option .option-description {
+  margin-top: 1.2rem;
+  text-align: start;
+  line-height: 28px;
+}
+
+.option-tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.option-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.option-left strong {
+  font-size: 36px;
+}
+
+.option .option-btn {
+  display: block;
+  padding: 1em 2.3em;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: var(--clr-cyan);
+  color: var(--clr-white);
+  transition: background-color 0.2s ease-in;
+  -webkit-transition: background-color 0.2s ease-in;
+  -moz-transition: background-color 0.2s ease-in;
+  -ms-transition: background-color 0.2s ease-in;
+  -o-transition: background-color 0.2s ease-in;
+}
+
+.option .option-btn:hover{
+  background-color: var(--clr-dark-cyan);
+} 
