@@ -16,9 +16,9 @@
 
   <body>
     <!-- MODAL -->
-    <div class="filter">
+    <div class="filter none">
       <div class="modal-stands">
-        <svg width="15" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M11.314 0l2.828 2.828L9.9 7.071l4.243 4.243-2.828 2.828L7.07 9.9l-4.243 4.243L0 11.314 4.242 7.07 0 2.828 2.828 0l4.243 4.242L11.314 0z" fill="#000" fill-rule="evenodd"/></svg>
+        <svg id="close-modal" width="15" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M11.314 0l2.828 2.828L9.9 7.071l4.243 4.243-2.828 2.828L7.07 9.9l-4.243 4.243L0 11.314 4.242 7.07 0 2.828 2.828 0l4.243 4.242L11.314 0z" fill="#000" fill-rule="evenodd"/></svg>
         <h2 class="modal-main-title">Back this project</h2>
         <p>
           Want to support us in bringing Mastercraft Bamboo Monitor
@@ -26,11 +26,11 @@
         </p>
         <div class="modal-checkbox">
           <label class="custom-radio">
-            <input type="checkbox" />
+            <input  class="checkboxes" type="checkbox" />
             <span class="checkmark"></span>
           </label>
           <div class="modal-stands-text">
-            <h3 class="modal-stands-title">Pledge with no reward</h3>
+            <h3 class="modal-stands-title"><strong id="reward">Pledge with no reward</strong></h3>
             <p>
               Choose to support us without a
               reward if you simply believe in our project. As a backer, you will be signed
@@ -40,11 +40,14 @@
         </div>
         <div class="modal-checkbox">
           <label class="custom-radio">
-            <input type="checkbox" />
+            <input class="checkboxes" type="checkbox" />
             <span class="checkmark"></span>
           </label>
           <div class="modal-stands-text">
-            <h3 class="modal-stands-title">Bamboo Stand Pledge $25 or more</h3>
+            <div class="modal-stands-title-qty">
+              <h3 class="modal-stands-title"><strong>Bamboo Stand</strong> Pledge $25 or more</h3>
+              <p class="modal-qty"><strong>101</strong> left</p>
+            </div>
             <p>
               You
               get an ergonomic stand made of natural bamboo. You've helped us launch our
@@ -52,8 +55,43 @@
             </p>
           </div>
         </div>
+        <div class="modal-checkbox">
+          <label class="custom-radio">
+            <input class="checkboxes" type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <div class="modal-stands-text">
+            <div class="modal-stands-title-qty">
+              <h3 class="modal-stands-title"><strong>Black Edition Stand</strong> Pledge $75 or more</h3>
+              <p class="modal-qty"><strong>64</strong> left</p>
+            </div>
+            <p>
+              You get a Black Special Edition
+              computer stand and a personal thank you. You’ll be added to our Backer
+              member list. Shipping is included.
+            </p>
+          </div>
+        </div>
+        <div class="modal-checkbox">
+          <label class="custom-radio">
+            <input class="checkboxes" type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <div class="modal-stands-text">
+            <div class="modal-stands-title-qty">
+              <h3 class="modal-stands-title"><strong>Mahogany Special Edition</strong> Pledge $200 or more</h3>
+              <p class="modal-qty"><strong>0</strong> left</p>
+            </div>
+            <p>
+              You get two Special Edition
+              Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+              to our Backer member list. Shipping is included.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- HEADER -->
     <header>
       <nav>
         <img src="./images/logo.svg" alt="logo Crowdfund" />
@@ -64,7 +102,7 @@
         </ul>
       </nav>
     </header>
-
+    <!-- main section -->
     <main>
       <section class="box-1">
         <img
@@ -188,28 +226,5 @@
         </div>
       </section>
     </main>
-<!--
-     
-    101 left
-
-    Enter your pledge $25 Continue
-
-    Black Edition Stand Pledge $75 or more You get a Black Special Edition
-    computer stand and a personal thank you. You’ll be added to our Backer
-    member list. Shipping is included. 64 left
-
-    Enter your pledge $75 Continue
-
-    Mahogany Special Edition Pledge $200 or more You get two Special Edition
-    Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
-    to our Backer member list. Shipping is included. 0 left
-
-    Enter your pledge $200 Continue
-
-    Thanks for your support! Your pledge brings us one step closer to sharing
-    Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our
-    campaign is completed. Got it!
-
-     ->
   </body>
 </html>
